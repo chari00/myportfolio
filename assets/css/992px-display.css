@@ -1,0 +1,55 @@
+@media (min-width: 992px) {
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: 50%;
+    margin-top: 20px;
+  }
+}
+
+.contact-container {
+  border-radius: 50px;
+}
+
+.btn-xl.cv-view-btn {
+  margin: 10px;
+}
+
+.btn-xl.cv-dl-btn {
+  margin: 10px;
+}
+
+.text-bg-light {
+  margin-top: 40px;
+}
+
+.hd-margin {
+  /*text-align: left;*/
+  margin-top: 20px;
+}
+
+.project-list {
+  list-style: none;
+  margin-left: 300px;
+  font-size: 20px;
+}
+
+.hd-indent {
+  text-align: center;
+}
+
+.project-list-item {
+  color: black;
+}
+
+.list-item-bold {
+  font-weight: bold;
+  /*font-size: 30px;*/
+}
+
+div {
+}
+
+.col-top-margin {
+  margin-top: 20px;
+}
+
