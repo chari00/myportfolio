@@ -59,4 +59,7 @@
   .project-list-item {
     font-size: 2.5rem;
   }
+  .pfs-bold{
+    font-weight: bold;
+  }
 }
