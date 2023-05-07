@@ -46,10 +46,17 @@
   /*font-size: 30px;*/
 }
 
-div {
-}
-
 .col-top-margin {
   margin-top: 20px;
 }
-
+@media (min-width: 1200px) {
+  .subtitle-fs {
+    font-size: 1.3rem;
+  }
+  .about-fs {
+    font-size: 1.5rem;
+  }
+  .project-list-item {
+    font-size: 2.5rem;
+  }
+}
