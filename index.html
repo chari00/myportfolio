@@ -185,18 +185,33 @@
         Contact Me
       </h2>
       <hr class="star-dark mb-5" />
-      <div>
-        <form class="p-3 p-xl-4" method="post" netlify>
-            <div class="mb-3"><input class="form-control" type="text" id="name-1" name="name" required="" placeholder="Name"></div>
-            <div class="mb-3"><input class="form-control" type="email" id="email-1" name="email" required="" placeholder="Email"></div>
-            <div class="mb-3"><textarea class="form-control" id="message-1" name="message" rows="6" required="" placeholder="Message"></textarea></div>
-            <div><button class="btn btn-primary shadow d-block w-100" type="submit">Send </button></div>
-        </form>
-    </div>
 
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <form id="contactForm" name="sentMessage" style="margin-bottom: 10px" method="post" netlify>
+          <div>
+            <form class="p-3 p-xl-4" method="post" netlify>
+                <div class="mb-3 form-floating controls pb-2"><input class="form-control" type="text" id="name-1" name="name" required="" placeholder="Name"><label
+                  class="form-label">Name</label><small class="form-text text-danger help-block"></small></div>
+                <div class="mb-3 form-floating controls pb-2"><input class="form-control" type="email" id="email-1" name="email" required="" placeholder="Email"><label
+                  class="form-label">Email Address</label><small class="form-text text-danger help-block"></small></div>
+                <div class="mb-0 form-floating controls pb-2" ><small class="form-text text-danger help-block"></small></div> 
+                <div class="mb-5 form-floating controls pb-2"><textarea class="form-control" id="message-1" name="message" rows="6" required="" placeholder="Message" style="height: 150px"></textarea><label class="form-label" style="border-color: var(--bs-white)">Your
+                  message...</label><small class="form-text text-danger help-block"></small></textarea></div>
+                </div>
+                <div id="success"></div>
+                <div style="text-align: center"></div><button class="btn btn-primary btn-xl contact-btn"  type="submit" style="
+                transform: rotate(0deg);
+                --bs-dark: #203952;
+                --bs-dark-rgb: 32, 57, 82;
+                --bs-body-bg: var(--bs-secondary);
+                margin-bottom: 0px;
+                filter: brightness(85%);
+                border-color: #f4efef;
+              ">Send </button></div>
+            </form>
+        </div>
+    
+          <!-- <form id="contactForm" name="sentMessage" style="margin-bottom: 10px" method="post" netlify>
             <div class="control-group">
               <div class="mb-0 form-floating controls pb-2">
                 <input class="form-control" type="text" id="name" required="" placeholder="Name" /><label
@@ -235,7 +250,7 @@
                 Send
               </button>
             </div>
-          </form>
+          </form> -->
         </div>
       </div>
     </div>
